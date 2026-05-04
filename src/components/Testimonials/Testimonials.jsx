@@ -7,21 +7,23 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 ═══════════════════════════════════════════════════════════════ */
 const TESTIMONIALS = [
   {
-    quote: "A gente fez o aniversário de casamento lá e foi perfeito. Tivemos a casa toda pra nós dois — sem pressa, sem ruído, sem ninguém interrompendo. A vista de manhã valia a viagem.",
-    name: "Ana e Marcos L.",
-    context: "Casal · Celebração de aniversário",
+    quote: "Local excelente para passar com família ou amigos, ótima receptividade, lugar muito bonito mesmo. Recomendo!",
+    name: "Eder Chinali",
     stars: 5,
   },
   {
-    quote: "Levei a família toda — avós, filhos, netos. Todo mundo achou o que queria: os mais novos na piscina e no ping pong, os mais velhos na rede. Ninguém quis ir embora no domingo.",
-    name: "Família Rodrigues",
-    context: "Família · Reunião familiar",
+    quote: "Local muito aconchegante e calmo para passar um final de semana com os amigos e familiares. Quiosque completo com geladeira, fogão, churrasqueira, mesa de bilhar e banheiro. Possui piscina, espaço externo para assar costelão e açude para pescaria.",
+    name: "Rafael Schuler",
     stars: 5,
   },
   {
-    quote: "Viemos em grupo de dez amigos. A estrutura deu conta de todo mundo — churrasqueira, bilhar, piscina e ainda tinha espaço sobrando. Já estamos marcando o retorno para o ano que vem.",
-    name: "Turma do Roberto",
-    context: "Grupo de amigos · Confraternização",
+    quote: "Foi incrível! Uma energia surreal, muita paz! Seu Rogério uma ótima pessoa, muito atencioso. Esse lugar é muito especial. Super Recomendo",
+    name: "Luiz Tiazinha",
+    stars: 5,
+  },
+  {
+    quote: "Muito bom, lindo lugar, com certeza vou voltar de novo. Ótimo atendimento",
+    name: "Jaqueline Furtado",
     stars: 5,
   },
 ];
@@ -61,9 +63,6 @@ export function Testimonials() {
             </blockquote>
             <div style={{ fontFamily: F.body, fontSize: 13, fontWeight: 600, color: C.forest, marginBottom: 4 }}>
               {t.name}
-            </div>
-            <div style={{ fontFamily: F.body, fontSize: 12, fontWeight: 300, color: C.sage, letterSpacing: ".04em" }}>
-              {t.context}
             </div>
           </div>
 
