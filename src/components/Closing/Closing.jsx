@@ -35,10 +35,10 @@ export function Closing() {
           A gente cuida do espaço. Vocês cuidam dos momentos. Consulte disponibilidade — antes que alguém do grupo resolva isso sem te avisar.
         </p>
         <div className={`fi${visible ? " v" : ""} d3`} style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="https://airbnb.com" className="btn-gold" style={{ fontSize: 13, padding: "15px 32px" }}>
+          <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=f5a25a96-da49-4615-aa2e-ac36d3b1367e" target="_blank" className="btn-gold" style={{ fontSize: 13, padding: "15px 32px" }}>
             Verificar disponibilidade <ArrowRight size={14} />
           </a>
-          <a href="https://wa.me/5551999999999" className="btn-ghost" style={{ fontSize: 13, padding: "15px 32px" }}>
+          <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais informações." target="_blank" className="btn-ghost" style={{ fontSize: 13, padding: "15px 32px" }}>
             <Phone size={14} /> Falar pelo WhatsApp
           </a>
         </div>

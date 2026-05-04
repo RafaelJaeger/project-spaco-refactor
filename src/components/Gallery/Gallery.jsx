@@ -4,12 +4,12 @@ import { C, F, useFadeIn } from "../../utils";
    GALLERY
 ═══════════════════════════════════════════════════════════════ */
 const GALLERY_ITEMS = [
-  { src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=80", cap: "A piscina espera vocês — sem revezamento, sem briga por espreguiçadeira.", main: true },
-  { src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700&q=80", cap: "Acordar assim faz parte da estadia." },
-  { src: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=700&q=80", cap: "Para as noites que pedem lareira, conversa e nada mais." },
-  { src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=80", cap: "O cheiro de churrasco no ar, montanhas ao fundo." },
-  { src: "https://images.unsplash.com/photo-1520364726783-f549aa88a320?w=700&q=80", cap: "Para quem precisa de um lugar para não fazer nada — e faz isso muito bem." },
-  { src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=80", cap: "Vista natural que enquadra cada momento." },
+  { src: "/public/images/SPAçoIMG_000022.jpeg", cap: "A piscina espera vocês — sem revezamento, sem briga por espreguiçadeira.", main: true },
+  { src: "/public/images/SPAço_000016.jpeg", cap: "Acordar assim faz parte da estadia." },
+  { src: "/public/images/SPAço_000018.jpeg", cap: "Para as noites que pedem um bom descanço." },
+  { src: "/public/images/piscina-churrasqueira.jpeg", cap: "O cheiro de churrasco no ar, montanhas ao fundo." },
+  { src: "/public/images/SPAço_000056.jpeg", cap: "Para quem precisa de um lugar para não fazer nada — e faz isso muito bem." },
+  { src: "/public/images/SPAço_000020.jpeg", cap: "Vista natural que enquadra cada momento." },
 ];
 
 export function Gallery() {

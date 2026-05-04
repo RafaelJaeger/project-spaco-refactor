@@ -48,7 +48,7 @@ export function Nav() {
           {links.map(([label, href]) => (
             <a key={label} href={href} className="nav-link">{label}</a>
           ))}
-          <a href="https://wa.me/5551999999999" className="btn-gold" style={{ padding: "10px 20px", fontSize: 11 }}>
+          <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=f5a25a96-da49-4615-aa2e-ac36d3b1367e" target="_blank" className="btn-gold" style={{ padding: "10px 20px", fontSize: 11 }}>
             Reservar
           </a>
         </div>
@@ -76,7 +76,7 @@ export function Nav() {
             </a>
           ))}
           <div style={{ padding: "20px 32px" }}>
-            <a href="https://wa.me/5551999999999" className="btn-gold" style={{ width: "100%", justifyContent: "center" }}>
+            <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=f5a25a96-da49-4615-aa2e-ac36d3b1367e" className="btn-gold" style={{ width: "100%", justifyContent: "center" }}>
               Reservar Agora
             </a>
           </div>

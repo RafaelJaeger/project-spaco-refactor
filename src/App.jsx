@@ -37,7 +37,7 @@ function App() {
       {/* WhatsApp float button */}
       <button
         className="wa-float"
-        onClick={() => window.open("https://wa.me/5551999999999", "_blank")}
+        onClick={() => window.open("https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais informações.", "_blank")}
       >
         <Phone size={17} />
         Falar pelo WhatsApp

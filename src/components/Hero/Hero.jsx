@@ -10,13 +10,14 @@ export function Hero() {
       {/* Background */}
       <div style={{
         position: "absolute", inset: 0,
-        backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80')",
+        backgroundImage: "url('/images/spaco-principal.jpeg')",
         backgroundSize: "cover", backgroundPosition: "center",
       }} />
       {/* Overlay */}
       <div style={{
-        position: "absolute", inset: 0,
-        background: "linear-gradient(135deg, rgba(28,43,26,.78) 0%, rgba(20,36,20,.45) 60%, rgba(0,0,0,.3) 100%)",
+        position: "absolute",
+        inset: 0,
+        background: "linear-gradient(135deg, rgba(28,43,26,.9) 0%, rgba(20,36,20,.8) 60%, rgba(0,0,0,.7) 100%)",
       }} />
 
       {/* Content */}
@@ -43,15 +44,15 @@ export function Hero() {
             Um refúgio privado na natureza — onde ninguém divide o espaço com vocês.
           </p>
           <div className="fi v d3" style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 32 }}>
-            <a href="https://airbnb.com" className="btn-gold">
+            <a href="https://www.airbnb.com.br/rooms/984675880762143577?check_in=2023-10-06&check_out=2023-10-08&guests=1&adults=9&s=67&unique_share_id=f5a25a96-da49-4615-aa2e-ac36d3b1367e" target="_blank" className="btn-gold">
               Verificar disponibilidade <ArrowRight size={14} />
             </a>
-            <a href="https://wa.me/5551999999999" className="btn-ghost">
+            <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais informações." target="_blank" className="btn-ghost">
               <Phone size={14} /> WhatsApp
             </a>
           </div>
           <div className="fi v d4" style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            {["Uso exclusivo garantido", "5 quartos", "Piscina privativa", "Natureza + conforto"].map(p => (
+            {["Uso exclusivo garantido", "5 quartos", "Piscina privativa", "Natureza + conforto", "Área KIDS", "Permitido animais", "Cozinha Equipada"].map(p => (
               <span key={p} className="pill">{p}</span>
             ))}
           </div>

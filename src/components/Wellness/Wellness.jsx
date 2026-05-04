@@ -66,7 +66,7 @@ export function Wellness() {
           <span style={{ fontFamily: F.body, fontSize: 12, color: "rgba(255,255,255,.35)", letterSpacing: ".06em", textTransform: "uppercase" }}>
             Sob agendamento · Sujeito a disponibilidade
           </span>
-          <a href="https://wa.me/5551999999999" className="btn-gold" style={{ fontSize: 12, padding: "11px 22px" }}>
+          <a href="https://wa.me/555181195230?text=Olá, tudo bem? Acessei o site do SPAço e gostaria de mais informações." target="_blank" className="btn-gold" style={{ fontSize: 12, padding: "11px 22px" }}>
             Agendar ao reservar
           </a>
         </div>
