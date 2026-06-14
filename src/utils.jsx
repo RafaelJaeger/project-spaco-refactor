@@ -136,6 +136,54 @@ export const GlobalStyles = () => (
     }
     .gimg:hover .gcap { opacity: 1; }
 
+    .lightbox {
+      position: fixed; inset: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,.75);
+      padding: 24px;
+    }
+    .lightbox-inner {
+      position: relative;
+      max-width: 1000px; width: 100%; max-height: 100%;
+      background: #1c2b1a;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 32px 80px rgba(0,0,0,.5);
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .lightbox img {
+      width: 100%; max-height: 75vh; object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      background: #111;
+    }
+    .lightbox-caption {
+      color: #f6f0e8;
+      font-family: 'Jost', sans-serif;
+      font-size: 14px; line-height: 1.6;
+      text-align: center;
+      margin-bottom: 18px;
+      max-width: 92%;
+    }
+    .lightbox-controls {
+      display: flex; gap: 12px;
+    }
+    .lightbox-btn,
+    .lightbox-close {
+      border: none; cursor: pointer;
+      background: rgba(255,255,255,.1); color: #fff;
+      width: 48px; height: 48px; border-radius: 999px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 24px; transition: transform .2s ease, background .2s ease;
+    }
+    .lightbox-btn:hover,
+    .lightbox-close:hover { background: rgba(255,255,255,.2); transform: translateY(-1px); }
+    .lightbox-close {
+      position: absolute; top: 18px; right: 18px;
+      width: 36px; height: 36px; font-size: 22px;
+      background: rgba(255,255,255,.12);
+    }
+
     /* ── TABS ── */
     .tab-btn {
       font-family: 'Jost', sans-serif;

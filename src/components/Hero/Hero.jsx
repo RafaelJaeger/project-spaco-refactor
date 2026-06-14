@@ -10,7 +10,7 @@ export function Hero() {
       {/* Background */}
       <div style={{
         position: "absolute", inset: 0,
-        backgroundImage: "url('/images/spaco-principal.jpeg')",
+        backgroundImage: "url('images/spaco-principal.jpeg')",
         backgroundSize: "cover", backgroundPosition: "center",
       }} />
       {/* Overlay */}

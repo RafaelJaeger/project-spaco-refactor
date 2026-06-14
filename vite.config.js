@@ -10,4 +10,9 @@ export default defineConfig({
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  base: "/project-spaco-refactor/",
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+  }
 })

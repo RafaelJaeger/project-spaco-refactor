@@ -27,9 +27,9 @@ export function Location() {
           <div className={`fi${visible ? " v" : ""} d3`} style={{ display: "flex", flexDirection: "column", gap: 14, marginBottom: 36 }}>
             {[
               ["📍", "Vera Cruz, Rio Grande do Sul"],
-              ["🏔️", "Vista para montanhas e área verde ampla"],
-              ["💦", "Cascatas e trilhas a curta distância"],
-              ["🚗", "Acesso fácil pela estrada, sinalização clara"],
+              ["🌊", "A 200 metros da Cascata Cantinho Colonial"],
+              ["🏙️", "A 5,5Km do centro de Vera Cruz"],
+              ["🍺", "A 11km do Parque da Oktoberfest de Santa Cruz do Sul"],
             ].map(([icon, text]) => (
               <div key={text} style={{ display: "flex", alignItems: "center", gap: 14, fontFamily: F.body, fontSize: 14, fontWeight: 300, color: "#4a6647" }}>
                 <span style={{ fontSize: 18 }}>{icon}</span>{text}

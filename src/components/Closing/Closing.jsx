@@ -10,7 +10,7 @@ export function Closing() {
     <section style={{ background: C.dark, padding: "100px 32px", position: "relative", overflow: "hidden" }}>
       <div style={{
         position: "absolute", inset: 0,
-        backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=60')",
+        backgroundImage: "url('https:/images/.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=60')",
         backgroundSize: "cover", backgroundPosition: "center", opacity: .1,
       }} />
       <div style={{ position: "absolute", inset: 0, background: `linear-gradient(135deg, ${C.dark} 0%, rgba(28,43,26,.92) 100%)` }} />
