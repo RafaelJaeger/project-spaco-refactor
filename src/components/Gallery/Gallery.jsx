@@ -8,10 +8,13 @@ import { Lightbox } from "./Lightbox";
 const GALLERY_ITEMS = [
   { src: "images/SPAçoIMG_000022.jpeg", cap: "A piscina espera vocês — sem revezamento, sem briga por espreguiçadeira.", main: true },
   { src: "images/SPAço_000016.jpeg", cap: "Acordar assim faz parte da estadia." },
-  { src: "images/SPAço_000018.jpeg", cap: "Para as noites que pedem um bom descanço." },
   { src: "images/piscina-churrasqueira.jpeg", cap: "O cheiro de churrasco no ar, montanhas ao fundo." },
   { src: "images/SPAço_000056.jpeg", cap: "Para quem precisa de um lugar para não fazer nada — e faz isso muito bem." },
   { src: "images/SPAço_000020.jpeg", cap: "Vista natural que enquadra cada momento." },
+  { src: "images/SPAçoIMG_000023.jpg", cap: "O SPAço é o lugar para vocês se sentirem em casa, longe de casa." },
+  { src: "images/SPAço_000018.jpeg", cap: "Para as noites que pedem um bom descanço." },
+  { src: "images/SPAçoIMG_000026.jpeg", cap: "Quarto separado para privacidade dos casais." },
+  { src: "images/SPAço_000029.jpeg", cap: "Conforto ao entardecer." },
 ];
 
 export function Gallery() {
